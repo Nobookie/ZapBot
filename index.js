@@ -64,6 +64,7 @@ client.on('message', async msg => {
             await client.sendMessage(msg.from, resposta);
             const novo = await client.getContactById("55" + WHATSAPP_ADM + "@c.us");
             await client.sendMessage(msg.from, novo);
+            console.log(`Resposta automática enviada para ${autor}.`);
         }
     } catch (error) {
         console.error("Erro ao responder mensagem recebida:", error);
