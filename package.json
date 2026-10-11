@@ -2,7 +2,7 @@
   "name": "zapbot",
   "version": "1.0.0",
   "description": "",
-  "license": "UNLICENSED",
+  "license": "GPL-3.0",
   "author": "Nobookie",
   "type": "module",
   "main": "index.js",
